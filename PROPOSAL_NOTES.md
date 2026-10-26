@@ -162,6 +162,12 @@ Link: at low r the target explodes → connects to Blanchard (2019) r < g debate
 
 **Logic issue found:** with β(1+r) > 1 and no uncertainty, the planner never stops saving (once taxes hit zero, extra assets fund ever more g). The "accumulate until interest pays for g, then stop" planner comes from BC (2008): β(1+r) = 1 **plus spending shocks** (precautionary saving). → For the infinite-horizon model, use BC's set-up (β(1+r) = 1 + shocks to A). Then φ works by **cutting the value of precautionary saving**. Keep the two-period κ > 0 version as the simple analytical illustration. Ask professor whether this is fine.
 
+**Contraction? (2026-10-26):** not guaranteed in general (V and W feed into each other through the other party's choices). Options:
+- **Special case that is a contraction:** no disagreement (d = 0), raiding = pure resource loss → W = V and one Bellman equation V(b) = max S + β[q·V(b′) + (1−q)·V(T(b′))] → Blackwell's conditions hold. Use as a benchmark (infinite-horizon version of v1).
+- **Successor follows a fixed rule** (e.g. a fiscal rule / FRBM-style balanced budget after turnover) → incumbent's problem is single-agent → contraction. Links to extension 3.
+- **Limit of finite-horizon equilibria:** undamped VFI from V = W = 0 *is* backward induction of a T-period game; each step is well defined, the question is whether it settles as T → ∞. Standard selection device.
+- **Numerical aids (no guarantee):** damping, finer grid, small taste shocks to smooth choices, several starting guesses to check for multiple equilibria.
+
 **Roadblocks (for the proposal):** (1) existence/uniqueness of MPE (non-convergence suggests possible multiple equilibria); (2) generalised Euler not solvable in closed form → numerical; (3) kink at b = 0 from φ (value function not smooth); (4) need shocks for a stationary distribution; (5) endogenous q (probabilistic voting) left for later.
 
 ## Candidate extensions (2026-10-22, not yet chosen)
