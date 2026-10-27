@@ -200,6 +200,29 @@ Link: at low r the target explodes → connects to Blanchard (2019) r < g debate
 
 **Citation leads to check (from these papers; verify each):** Azzimonti (2011, AER, polarization + turnover → underinvestment, likely very close), Bai & Lagunoff (2011, policies affect turnover), Yared (2010), Klein, Krusell & Ríos-Rull (2008, GEE method), Krusell & Smith (2003, multiplicity), Harris & Laibson (2001), Persson & Tabellini (1999), Lindbeck & Weibull (1987), Battaglini & Coate (2007), Battaglini, Nunnari & Palfrey (2014), Barseghyan & Battaglini (2016). Also search: Azzimonti, Battaglini & Coate (balanced budget rules) for the FRBM extension.
 
+## Citation search results (verified 2026-10-27)
+
+**Backward (checked against the reference lists of the two papers; journal details match):**
+Azzimonti (2011) AER 101: 2182–2204 · Bai & Lagunoff (2011) RES 78: 17–48 · Yared (2010) RES 77: 806–840 · Klein, Krusell & Ríos-Rull (2008) RES 75: 789–808 · Krusell & Smith (2003) Ecta 71: 53–73 · Harris & Laibson (2001) Ecta 69: 935–957 · Persson & Tabellini (1999) EER 43: 699–735 · Persson & Tabellini (2004) AER 94: 25–45 · Lindbeck & Weibull (1987) Public Choice 52: 273–297 · Battaglini & Coate (2007) AER 97: 118–149 · Battaglini, Nunnari & Palfrey (2014) AER 104: 2858–2871 · Persson & Svensson (1989) QJE 104: 325–345 · Lizzeri (1999) RES 66: 909–928 · Cao & Werning (2018) Ecta 86: 805–857 (hyperbolic discounting) · Cao & Werning, "Dynamic savings choices with disagreements", NBER WP 22007.
+- Not in either list (dropped): Barseghyan & Battaglini (2016) — only a 2012 WP "Growth and fiscal policy" is cited.
+
+**Content checked via search (abstracts):**
+| Paper | What it does | Overlap with us |
+|---|---|---|
+| **Cao & Werning, NBER WP 22007 (2016)** | Alternating office-holders save/dissave; "disagreement index"; high disagreement → dissaving, low → saving; constant disagreement = hyperbolic discounting | **Very high** with v2 (d channel). Must read & cite. |
+| **Amador (2003 MIT thesis; SED 2004 paper on sovereign debt repayment)** | Parties alternate; incumbent likely to lose is impatient → won't save; asset accumulation unsustainable | **Very high** with v1 (turnover → no saving). Exact title to confirm. |
+| **Azzimonti (2011) AER** | Disagreement over spending composition → over-taxation, under-investment; worse with polarization; political stability mitigates | High (d and q), but about public capital, not a fund |
+| **Azzimonti, Battaglini & Coate (2016) JPubE 136: 45–61** | Balanced-budget rule in the BC (2008) model: debt falls gradually; costs = more volatile taxes | Direct base for the FRBM extension |
+| Bai & Lagunoff (2011) RES | Today's policy changes who holds power tomorrow | Base for endogenous q |
+| **Futter (2025) Legislative Studies Quarterly 50(4) e70038** | Majority party saves more in rainy-day fund when likely to keep majority; supermajority rules encourage saving | Supports q effect; veto rules ≈ low φ |
+| Rose (2008), State Politics & Policy Quarterly | US states withdraw ~3× more from rainy-day funds in election years; veto-player rules on withdrawals work better than rules on economic conditions | **Evidence that φ (withdrawal protection) matters** |
+| Pope & Leland (2019), Social Science Quarterly | RDF balances lower in election years and under unified party control | Motivation |
+| Khemani (2004) JDE 73(1): 125–154 | Elections in 14 Indian states 1960–96: lower commodity taxes, more roads, no effect on deficits | India motivation (cited in student's email) |
+
+**Forward citations:** Google Scholar "Cited by" not reachable from the session — student to run it. EconPapers showed ~33 citations of Battaglini (2014). The 2026 paper is new; its earlier version is "Chaos and Unpredictability in Dynamic Social Problems" (NBER WP 28347 / CEPR DP15662) — search "Cited by" for that title too.
+
+**Implication for novelty:** "turnover → no saving" (Amador; A&T) and "disagreement → dissaving" (Cao & Werning; Azzimonti) are already known. What remains ours: **φ, institutional protection of the stock, separate from preferences**; the **balanced-budget band** it creates; φ vs fiscal rules (ABC 2016); interaction with the **precautionary buffer** in the BC economy; the **Indian states** application (CSF fungibility, OPS, Centre alignment). Rose (2008) and Futter (2025) give empirical support that withdrawal rules matter.
+
 ## Candidate extensions (2026-10-22, not yet chosen)
 
 1. **Spending shocks (BC 2008 style)**: needed to fix the β(1+r) > 1 logic issue. Expected: φ cuts precautionary saving → taxes more volatile.
