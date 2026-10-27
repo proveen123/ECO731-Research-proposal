@@ -170,6 +170,36 @@ Link: at low r the target explodes → connects to Blanchard (2019) r < g debate
 
 **Roadblocks (for the proposal):** (1) existence/uniqueness of MPE (non-convergence suggests possible multiple equilibria); (2) generalised Euler not solvable in closed form → numerical; (3) kink at b = 0 from φ (value function not smooth); (4) need shocks for a stationary distribution; (5) endogenous q (probabilistic voting) left for later.
 
+## Professor's reply (email 2026-10-13, PDF in repo)
+
+- Drop request accepted on Pingala (student has finished credit requirements). **Check:** does the 14 Nov course deadline still apply, or is this now an independent project with the professor?
+- Sent Battaglini (2014, TE) and Battaglini (2026, TE) — both by the professor's doctoral advisor; the professor is thanked as an RA on the 2026 paper.
+- Asked for forward/backward citation searches on Google Scholar from these two papers.
+- Happy to talk after the mid-sem break; "continue polishing the idea".
+- Student's own email framed the benchmark as **β(1+r) = 1 + spending uncertainty** (buffer motive) and focused on **Indian states** (CSF, Old Pension Scheme, anti-incumbency, alignment with the Centre). Consistent with the v3 logic fix.
+
+## Tools from Battaglini (2014) and (2026) (read 2026-10-27)
+
+**Battaglini (2014), "A dynamic theory of electoral competition" (TE 9: 515–554)**
+- Economy = BC (2008): u = c + A·g^α − l^(1+1/ε)/(1+ε); δ(1+ρ) = 1; i.i.d. shocks to A; MCPF = (1−r)/(1−r(1+ε)); debt in [x_low, x_high], asset cap = −g_S(A)/ρ. → **adopt this economy for our infinite-horizon model** (fixes the β(1+r) > 1 problem).
+- Planner: MCPF is a supermartingale → converges to full self-insurance (Prop 1).
+- Elections: dynamic probabilistic voting (Lindbeck–Weibull / Persson–Tabellini 1999), uniform ideology shocks → party's problem reduces to a weighted-welfare problem (eq 13).
+- **Political Euler = planner's Euler minus a wedge** (eqs 20–21: MCPF_t ≤ E[MCPF_{t+1}]). → write our result the same way: wedge from (q, φ, d).
+- Value-function derivative as a probability-weighted mix of regimes (eq 18). → template for our kink at b = 0 (φ applies only to assets).
+- Existence of a "well-behaved" (continuous, concave v) Markov equilibrium via a fixed-point theorem (Glicksberg–Fan), **not** a contraction (Prop 2).
+- Key message: the political distortion shows up as **more volatile policies / imperfect self-insurance**, not necessarily higher debt (Prop 5). → matches our expected φ result.
+- Institutions (district size m) as comparative statics. → analogue: φ.
+
+**Battaglini (2026), "Chaos and unpredictability with time inconsistent policy makers" (TE 21: 241–280)**
+- Two parties alternate in power (prob 1/2); durable state x_{t+1} = (1−γ)x_t + p_t; utility α·K·p − e(x), **α = how much the out-party values the in-party's spending** (α = 1: no conflict). ≈ our d (roughly α ↔ 1 − d).
+- **Method:** split v(x) = [incumbent's objective] − [wedge (1−α)K/2·(y(x) − (1−γ)x)] (eq 7); envelope theorem on the first part → v′(x) depends on future policy slope y′(x) (eq 8); combine with FOC → **ODE for the policy function**, closed-form ψ(x, c) up to a constant c (eqs 9–11). Works with quasilinear utility.
+- α = 1 → unique, well-behaved equilibrium (≈ our "no disagreement" contraction case). α < 1 → **continuum of equilibria** (indexed by c), possibly cycles of any period and chaos. → our non-converging VFI cases may be real cycling equilibria, not just numerical noise.
+- Comparative statics need an equilibrium-selection assumption (fn 29: pick the "nearby" equilibrium).
+- Sec 4.2: turnover ≈ a single agent with quasi-hyperbolic (β–δ) discounting. → our incumbent behaves like a present-biased agent with bias factor ≈ q + (1−q)(1−φ)·s; links to Harris–Laibson (2001) generalized Euler equations.
+- Mapping to debt is not automatic: for us x = assets/debt grows at interest (γ = −r), and raiding makes the transition depend on turnover. Must check their conditions.
+
+**Citation leads to check (from these papers; verify each):** Azzimonti (2011, AER, polarization + turnover → underinvestment, likely very close), Bai & Lagunoff (2011, policies affect turnover), Yared (2010), Klein, Krusell & Ríos-Rull (2008, GEE method), Krusell & Smith (2003, multiplicity), Harris & Laibson (2001), Persson & Tabellini (1999), Lindbeck & Weibull (1987), Battaglini & Coate (2007), Battaglini, Nunnari & Palfrey (2014), Barseghyan & Battaglini (2016). Also search: Azzimonti, Battaglini & Coate (balanced budget rules) for the FRBM extension.
+
 ## Candidate extensions (2026-10-22, not yet chosen)
 
 1. **Spending shocks (BC 2008 style)**: needed to fix the β(1+r) > 1 logic issue. Expected: φ cuts precautionary saving → taxes more volatile.
